@@ -1,3 +1,47 @@
+![image](https://github.com/MerabQardava/ReactFinal/assets/73705286/27d20d4e-a8e5-4da1-8682-19deb0354635)![image](https://github.com/MerabQardava/ReactFinal/assets/73705286/76154c31-6c00-49fa-9e22-06a4420c75c9)გამოყენებულია ორი API ნიუ იორკ ტაიმსის ბესტსელერების - https://developer.nytimes.com/docs/books-product/1/overview
+და ღია ბიბლიოთეკის წიგნების API https://openlibrary.org/dev/docs/api/search
+
+არის 5 ფეიჯი, როუტინგი ხდება რეაქტ როუტერით.
+
+პირველი ფეიჯი არის ჰოუმ ფეიჯი სადაც უბრალოდ ცოტაოდენი ტექსტი და ორი ღილაკია რომელსაც სხვადასხვა ფეიჯზე გადაყავხარ
+![image](https://github.com/MerabQardava/ReactFinal/assets/73705286/4562609f-daff-4d7f-bb62-305cd8a9722c)
+
+შემდეგ არის ტოპ სელერების ჟანრის ფეიჯი სადაც ბესტსელერების API-დან მოდის სხვადასხვა ჟანრები.
+![image](https://github.com/MerabQardava/ReactFinal/assets/73705286/7aa8c506-6e6c-4735-8410-9af6eeefb2a6)
+
+ჟანრაზე დაჭერის შემდეგ გადადის დინამიურ ფეიჯზე სადაც გამოსახულია უშუალოდ ტოპ სელერი წიგნები ამ ჟანრის.
+![image](https://github.com/MerabQardava/ReactFinal/assets/73705286/a941c85e-dacc-4615-8dc1-c7e164bb3179)
+ეს წიგნები დალაგებულია რანკის მიხედვით, არის ცოტა ინფორმაცია მათზე გამოსახული და გვაქ სამი ღილაკი რომლებიც ანიმირებულები არიან framer motion-ით.
+პირველი ღილაკის დაჭერისას იხსნება მოდალი სადაც არის მეტი ამ წიგნის ყდა და მეტი ინფორმაცია გამოსახული, მოდალის გამოჩენაც ანიმირებულია framer motion-ით
+![image](https://github.com/MerabQardava/ReactFinal/assets/73705286/c9790d89-6e72-4716-9b9e-748b9713ff4c)
+
+მეორე ღილაკს უბრალოდ გადავყავართ ამ წიგნის შესაძენ ამაზონის ფეიჯზე.
+მესამე ვარსკვლავის ღილაკი კი არის favourite-ში დამატება. მასზე დაჭერის შემთხვევაში იგი ყვითლდება და შესაბამისი წიგნის ინფორმაცია მატდება custom hook-ის დახმარებით localstorage-ში.
+![image](https://github.com/MerabQardava/ReactFinal/assets/73705286/78e9666b-367b-4a03-ace5-82af838ce9af)
+
+localstorage-ში შენახული წიგნები გამოისახება Favorites ფეიჯზე. ვარსკვლავზე დაკლიკებისას იშლება საყვარელი წიგნების ლისტიდან.
+![image](https://github.com/MerabQardava/ReactFinal/assets/73705286/ca8da5a5-7477-49ba-be4a-53736270170e)
+
+ბოლო ფეიჯი აირს Advanced Search ფეიჯი სადაც არის ფორმა react hook forms-გამოყენებით და ვალიდაცია ხდება yup-ის დახმარებით.
+ამ ფეიჯზე შეიძლება ავტორის, სათაურის, უნიკალური კოდის, ფაბლიშერის ან მათი სხვადასხვა კომბინაციის შეყვანით წიგნების მოძებნა.
+![image](https://github.com/MerabQardava/ReactFinal/assets/73705286/9ba9d9fb-cb61-4692-8998-10717dbeb7ea)
+ვალიდაცია ხდება ISBN კოდის სადაც ან ცარიელი უნდა იყოს ინპუტი ან უნდა იყოს 10 ან 13 სიგრძის ციფრი.
+
+
+საიტი არის რესფონსივი, გამოყენებულია ბუთსთრაფი და ათვირთულია Netlify-ზე https://merabkardavareactfinal.netlify.app/
+
+მოგნი ყველა მოთხოვნა დაკმაყოფილებული მაქ :).
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
