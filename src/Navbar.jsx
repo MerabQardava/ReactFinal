@@ -5,7 +5,9 @@ function Navbar() {
     return (
         <nav  className="navbar navbar-expand-lg">
             <div className="container-fluid">
-                <a className="text-white  navbar-brand" href="#">Navbar</a>
+                <NavLink to={"/"}>
+                    <img style={{maxHeight:"50px",marginRight:"5px"}} src="/nyt-bestseller-badge.png" alt=""/>
+                </NavLink>
                 <button
                     className="navbar-toggler"
                     type="button"
