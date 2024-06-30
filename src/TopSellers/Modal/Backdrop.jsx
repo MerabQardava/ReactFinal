@@ -1,7 +1,6 @@
 import React from 'react';
 import {createPortal} from "react-dom";
 import {motion} from "framer-motion";
-import backdrop from "bootstrap/js/src/util/backdrop";
 function Backdrop({children,onClick}) {
     // console.log(children)
 

@@ -1,7 +1,6 @@
 import React, {useContext, useEffect, useState} from 'react';
 import {Button, Card} from "react-bootstrap";
 import {AnimatePresence, motion} from "framer-motion";
-import {Link} from "react-router-dom";
 import Modal from "./Modal/Modal";
 import {AppContext} from "../AppProvider";
 

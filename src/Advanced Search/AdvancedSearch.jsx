@@ -1,12 +1,10 @@
 import React, {useState} from 'react';
-import {Button, Col, Container, Form, Row, Spinner} from "react-bootstrap";
+import {Button, Col, Container, Form, Row} from "react-bootstrap";
 import {useForm} from "react-hook-form";
 import * as yup from 'yup';
-import {number, string} from "yup";
+import {string} from "yup";
 import {yupResolver} from "@hookform/resolvers/yup";
 import {getBooks} from "../ApiFunctions";
-import BookComponent from "../TopSellers/BookComponent";
-import {Search} from "@mui/icons-material";
 import SearchCard from "./SearchCard";
 import LoaderSpinner from "../LoaderSpinner";
 

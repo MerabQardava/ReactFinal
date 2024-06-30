@@ -4,7 +4,7 @@ import BookComponent from "../TopSellers/BookComponent";
 import {AppContext} from "../AppProvider";
 
 function FavouriteBooks(props) {
-    const {favorites,setFavorites}=useContext(AppContext)
+    const {favorites}=useContext(AppContext)
 
     return (
         <Container  fluid>

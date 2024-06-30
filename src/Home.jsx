@@ -1,5 +1,5 @@
-import React, {useContext, useState} from 'react';
-import {AppContext} from "./AppProvider";
+import React from 'react';
+
 import {Link} from "react-router-dom";
 
 function Home(props) {

@@ -17,7 +17,7 @@ const dropIn = {
 };
 
 
-function Modal({handleClose, description, isbn, advanced}) {
+function Modal({handleClose, description, isbn}) {
     const [bookData, setBookData] = useState();
     const [loading, setLoading] = useState(true);
 
