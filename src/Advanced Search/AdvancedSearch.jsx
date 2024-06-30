@@ -43,8 +43,9 @@ function AdvancedSearch(props) {
         })
     }
     return (
-        <div>
-            <Form onSubmit={handleSubmit(onSubmit)}>
+        <div >
+            <h1 className={"text-center mt-4"}>Advanced Search</h1>
+            <Form className="advanced_form" onSubmit={handleSubmit(onSubmit)}>
 
                 <Form.Group className="mb-3">
                     <Form.Label>Author</Form.Label>
